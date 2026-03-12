@@ -55,7 +55,7 @@ jobs:
       - name: Download latest DumpSource2
         run: |
           Write-Output "Downloading DumpSource2..."
-          curl.exe -L -o DumpSource2-DEADLOCK.exe "https://github.com/saul/DumpSource2/releases/latest/download/DumpSource2-DEADLOCK.exe"
+          curl.exe -L -o DumpSource2-DEADLOCK.exe "https://github.com/lPrestonl/DumpSource2/releases/latest/download/DumpSource2-DEADLOCK.exe"
 
       - name: Run DumpSource2
         run: |
